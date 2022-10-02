@@ -1,0 +1,70 @@
+.site-contact {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .site-contact {
+        display: block;
+        margin-left: auto;
+    
+        &__item:not(:last-child) {
+            margin-bottom: 10px;
+          }
+          
+          &__link {
+            display: flex;
+            align-items: center;
+            
+          
+            color: var(--contact-color);
+            font-size: 12px;
+            line-height: 1.17;
+            letter-spacing: 0.02em;
+          
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          }
+          
+          &__link:hover,
+          &__link:focus {
+            color: var(--accent-color);
+          }
+          
+          &__icon {
+            width: 14px;
+            height: 10px;
+            fill: currentColor;
+            margin-right: 10px;
+          }
+      }
+      
+      .icon-phone {
+        width: 10px;
+        height: 14px;
+      }
+}
+
+@media screen and (min-width: 1200px) {
+  .site-contact {
+    display: flex;
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+      }
+      
+      &__link {
+        font-size: 14px;
+        line-height: 1.14;
+      }
+
+      &__icon {
+        width: 16px;
+        height: 12px;
+      }
+  }
+  
+  .icon-phone {
+    width: 10px;
+    height: 16px;
+  }
+}
+

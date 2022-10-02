@@ -1,0 +1,23 @@
+.btn {
+    display: block;
+    padding: 10px 32px;
+  
+    font-family: "Robot", sans-serif;
+    font-weight: 700;
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+  
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      background-color: var(--secondary-accent-color);
+      box-shadow: 0px 4px 4px var(--elements-bg-color);
+    }
+  }
+  

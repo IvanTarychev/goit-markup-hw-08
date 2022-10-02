@@ -1,0 +1,86 @@
+.hero {
+    padding-top: 178px;
+    padding-bottom: 178px;
+  
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/mobile-hero-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--secondary-bg-color);
+
+    &__title {
+        margin-bottom: 30px;
+      
+        color: var(--secondary-text-color);
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.61;
+        letter-spacing: 0.06em;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      
+      &__button {
+        margin-right: auto;
+        margin-left: auto;
+      }
+  }
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/mobile-hero-img@2x.jpg)
+    }
+  }
+
+@media screen and (min-width: 768px) {
+    .hero {
+      background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+          ),
+        url(../images/tablet-hero-img.jpg)
+    }
+  }
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+screen and (min-width: 768px) and (min-resolution: 192dpi),
+screen and (min-width: 768px) and (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/tablet-hero-img@2x.jpg)
+    }
+  }
+
+@media screen and (min-width: 1200px) {
+    .hero {
+      background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+          ),
+        url(../images/desktop-hero-img.jpg)
+    }
+  }
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+screen and (min-width: 1200px) and (min-resolution: 192dpi),
+screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/desktop-hero-img@2x.jpg)
+    }
+  }

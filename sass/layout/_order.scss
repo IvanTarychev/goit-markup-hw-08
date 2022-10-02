@@ -1,0 +1,149 @@
+.order {
+    display: flex;
+    flex-direction: column;
+  
+    color: var(--contact-color);
+  }
+  
+  .order__text {
+    margin-bottom: 12px;
+  
+    color: var(--primery-text-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+  }
+  
+  .order__label {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .order__field {
+    height: 40px;
+    padding-left: 42px;
+    margin-top: 4px;
+  }
+  
+  .order__icon {
+    position: absolute;
+    bottom: 14px;
+    left: 15px;
+  
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .order__field:focus + .order__icon {
+    fill: var(--accent-color);
+  }
+  
+  .order__icon-name {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .order__icon-tel {
+    width: 13px;
+    height: 13px;
+  }
+  
+  .order__icon-email {
+    width: 15px;
+    height: 12px;
+  }
+  
+  .order__comment {
+    margin-bottom: 20px;
+  }
+  
+  .order__comment-text {
+    display: flex;
+    flex-direction: column;
+  
+    padding: 12px 16px;
+    margin-top: 4px;
+    width: 100%;
+    height: 120px;
+    resize: none;
+  }
+  
+  .order__confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+  
+    cursor: pointer;
+  }
+  
+  .confirm-check {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .check-icon {
+    display: inline-block;
+  
+    width: 16px;
+    height: 15px;
+    margin-right: 7px;
+  
+    border: 2px solid var(--primery-text-color);
+    border-radius: 4px;
+  }
+  
+  .confirm-check:checked + .check-icon {
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+    background-image: url(../images/icon-check.svg);
+    background-size: contain;
+    background-origin: border-box;
+  }
+  
+  .confirm-check:focus + .check-icon {
+    border-color: var(--secondary-accent-color);
+  }
+  
+  .order__confirm-link {
+    color: var(--accent-color);
+  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .order__confirm-link:hover,
+  .order__confirm-link:focus {
+    color: var(--secondary-accent-color);
+  }
+  
+  .order__submit {
+    padding: 10px 55px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .order__submit:hover,
+  .order__submit:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  @media screen and (min-width: 1200px) {
+    .order__confirm {
+      font-size: 14px;
+      line-height: 1.71;
+    }
+  }
