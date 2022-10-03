@@ -403,6 +403,8 @@ li {
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desktop-hero-img.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
   .hero__title {
     font-size: 44px;
@@ -614,7 +616,7 @@ li {
   .team__item:not(:last-of-type) {
     margin-right: 30px;
   }
-  .team__item {
+  .team__item:nth-child(n+1) {
     margin-bottom: 0;
   }
   .team__list {

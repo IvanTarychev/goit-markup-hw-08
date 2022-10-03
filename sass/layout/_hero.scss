@@ -69,7 +69,9 @@ screen and (min-width: 768px) and (min-resolution: 2dppx) {
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
           ),
-        url(../images/desktop-hero-img.jpg)
+        url(../images/desktop-hero-img.jpg);
+      padding-top: 200px;
+      padding-bottom: 200px;
     }
 
     .hero__title {
