@@ -110,4 +110,12 @@
     .team__item:not(:last-of-type) {
       margin-right: 30px;
     }
+
+    .team__list {
+      flex-wrap: nowrap;
+    }
+
+    .team__image {
+      width: 270px;
+    }
 }
