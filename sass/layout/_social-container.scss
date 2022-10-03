@@ -1,5 +1,5 @@
 .social-container {
-    margin-left: 70px;
+    margin-bottom: 60px;
 
       &__text {
         margin-bottom: 20px;
@@ -12,6 +12,7 @@
       
       &__list {
         display: flex;
+        justify-content: center;
       }
       
       &__item:not(:last-of-type) {
@@ -51,3 +52,8 @@
       }
   }
   
+@media screen and (min-width: 1200px) {
+  .social-container {
+    margin-left: 70px;
+  }
+}

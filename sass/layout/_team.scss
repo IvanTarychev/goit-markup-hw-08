@@ -22,10 +22,6 @@
         border-radius: 0px 0px 4px 4px;
       }
       
-      &__item:not(:last-of-type) {
-        margin-right: 30px;
-      }
-      
       &__name {
         margin-top: 30px;
         margin-bottom: 10px;
@@ -89,6 +85,29 @@
       }
   }
 
-// .team__list {
-//   display: flex;
-// }
+@media screen and (max-width: 479px) {
+    .team__image {
+      width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .team__list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .team__item:not(:nth-child(2n)) {
+      margin-right: 30px;
+    }
+
+    .team__item:nth-child(n + 1) {
+      margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .team__item:not(:last-of-type) {
+      margin-right: 30px;
+    }
+}

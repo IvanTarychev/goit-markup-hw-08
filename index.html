@@ -386,12 +386,12 @@
             </div>
         </section>
 
-        <!-- <section class="customers">
+        <section class="customers">
             <div class="container">
                 <h2 class="customers__title">Наши клиенты</h2>
 
                 <ul class="customers__list list">
-                    <li>
+                    <li class="customers__item">
                         <a href="" class="customers__link">
                             <svg class="customers__icon">
                                 <use href="./images/icons.svg#icon-company-1"></use>
@@ -399,7 +399,7 @@
                         </a>
                     </li>
 
-                    <li>
+                    <li class="customers__item">
                         <a href="" class="customers__link">
                             <svg class="customers__icon">
                                 <use href="./images/icons.svg#icon-company-2"></use>
@@ -407,7 +407,7 @@
                         </a>
                     </li>
 
-                    <li>
+                    <li class="customers__item">
                         <a href="" class="customers__link">
                             <svg class="customers__icon">
                                 <use href="./images/icons.svg#icon-company-3"></use>
@@ -415,7 +415,7 @@
                         </a>
                     </li>
                     
-                    <li>
+                    <li class="customers__item">
                         <a href="" class="customers__link">
                             <svg class="customers__icon">
                                 <use href="./images/icons.svg#icon-company-4"></use>
@@ -423,7 +423,7 @@
                         </a>
                     </li>
 
-                    <li>
+                    <li class="customers__item">
                         <a href="" class="customers__link">
                             <svg class="customers__icon">
                                 <use href="./images/icons.svg#icon-company-5"></use>
@@ -431,7 +431,7 @@
                         </a>
                     </li>
 
-                    <li>
+                    <li class="customers__item">
                         <a href="" class="customers__link">
                             <svg class="customers__icon">
                                 <use href="./images/icons.svg#icon-company-6"></use>
@@ -440,59 +440,61 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
     </main>
 
-    <!-- <footer class="site-footer">
+    <footer class="site-footer">
         <div class="container">
-            <div class="address-container">
-                <a href="index.html" class="logo link" lang="en"><span class="web-logo">Web</span>Studio</a>
-                
-                <address>
-                    <p class="address-container__text">г. Киев, пр-т Леси Украинки, 26</p>
-                    <ul class="list">
-                        <li class="address-container__item item"><a class="address-container__link link" href="mailto:" lang="en">info@example.com</a></li>
-                        <li class="address-container__item item"><a class="address-container__link link" href="tel:">+38 099 111 11 11</a></li>
+            <div class="site-footer__container">
+                <div class="address-container">
+                    <a href="index.html" class="logo link" lang="en"><span class="web-logo footer__web-logo">Web</span>Studio</a>
+                    
+                    <address>
+                        <p class="address-container__text">г. Киев, пр-т Леси Украинки, 26</p>
+                        <ul class="list">
+                            <li class="address-container__item item"><a class="address-container__link link" href="mailto:" lang="en">info@example.com</a></li>
+                            <li class="address-container__item item"><a class="address-container__link link" href="tel:">+38 099 111 11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+    
+                <div class="social-container">
+                    <p class="social-container__text">Присоединяйтесь</p>
+    
+                    <ul class="social-container__list list">
+                        <li class="social-container__item item">
+                            <a href="" class="social-container__link">
+                                <svg class="social-container__icon">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+    
+                        <li class="social-container__item item">
+                            <a href="" class="social-container__link">
+                                <svg class="social-container__icon">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+    
+                        <li class="social-container__item item">
+                            <a href="" class="social-container__link">
+                                <svg class="social-container__icon">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+    
+                        <li class="social-container__item item">
+                            <a href="" class="social-container__link">
+                                <svg class="social-container__icon">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
-                </address>
-            </div>
-
-            <div class="social-container">
-                <p class="social-container__text">Присоединяйтесь</p>
-
-                <ul class="social-container__list list">
-                    <li class="social-container__item item">
-                        <a href="" class="social-container__link">
-                            <svg class="social-container__icon">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li class="social-container__item item">
-                        <a href="" class="social-container__link">
-                            <svg class="social-container__icon">
-                                <use href="./images/icons.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li class="social-container__item item">
-                        <a href="" class="social-container__link">
-                            <svg class="social-container__icon">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li class="social-container__item item">
-                        <a href="" class="social-container__link">
-                            <svg class="social-container__icon">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+                </div>
             </div>
 
             <div class="subscribe">
@@ -507,7 +509,7 @@
                 </form>
             </div>
         </div>
-    </footer> -->
+    </footer>
 
      <div class="backdrop is-hidden" data-modal>
         <div class="modal">
