@@ -43,6 +43,12 @@
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 768px) {
+  .subscribe__field {
+    width: 450px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
 
   .subscribe__form {

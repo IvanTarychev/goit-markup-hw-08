@@ -19,7 +19,7 @@
         <div class="site-header__container container">
                 <a href="./index.html" class="logo link" lang="en"><span class="web-logo">Web</span>Studio</a>
                 
-                <button class="menu-button" js-open-menu>
+                <button class="menu-button" data-menu-open>
                     <svg class="menu-button__icon">
                         <use href="./images/icons.svg#icon-menu-burger"></use>
                     </svg>
@@ -53,16 +53,16 @@
                 </ul>
         </div>
 
-        <div class="mobile-menu" js-menu-container>
+        <div class="mobile-menu" data-menu>
             <div class="mobile-menu__container container">
-                <button class="mobile-menu__btn" js-close-menu>
+                <button class="mobile-menu__btn" data-menu-close>
                     <svg class="mobile-menu__btn-icon">
                         <use href="./images/icons.svg#icon-cross"></use>
                     </svg>
                 </button>
 
                 <ul class="list mobile-menu__nav">
-                    <li class="item mobile-menu__nav-item"><a class="link mobile-menu__nav-link" href="./index.html">Студія</a></li>
+                    <li class="item mobile-menu__nav-item"><a class="link mobile-menu__nav-link current" href="./index.html">Студія</a></li>
                     <li class="item mobile-menu__nav-item"><a class="link mobile-menu__nav-link" href="./portfolio.html">Портфоліо</a></li>
                     <li class="item mobile-menu__nav-item"><a class="link mobile-menu__nav-link" href="">Контакти</a></li>
                 </ul>

@@ -12,6 +12,10 @@
       &__item:not(:last-of-type) {
         margin-right: 8px;
       }
+
+      &__item:nth-child(n + 4) {
+        margin-top: 21px;
+      }
       
       &__button {
         display: block;
@@ -47,11 +51,13 @@
   @media screen and (min-width: 768px) {
     .filter {
       flex-wrap: nowrap;
-    justify-content: center;
+      justify-content: center;
     }
   }
 
   @media screen and (min-width: 1200px) {
-    
+    .filter__item:nth-child(n+4) {
+      margin-top: 0;
+    }
   }
   

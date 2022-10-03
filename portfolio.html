@@ -18,7 +18,7 @@
         <div class="site-header__container container">
                 <a href="./index.html" class="logo link" lang="en"><span class="web-logo">Web</span>Studio</a>
 
-                <button class="menu-button" js-open-menu>
+                <button class="menu-button" data-menu-open>
                     <svg class="menu-button__icon">
                         <use href="./images/icons.svg#icon-menu-burger"></use>
                     </svg>
@@ -52,9 +52,9 @@
                 </ul>
         </div>
 
-        <div class="mobile-menu" js-menu-container>
+        <div class="mobile-menu" data-menu>
             <div class="mobile-menu__container container">
-                <button class="mobile-menu__btn" js-close-menu>
+                <button class="mobile-menu__btn" data-menu-close>
                     <svg class="mobile-menu__btn-icon">
                         <use href="./images/icons.svg#icon-cross"></use>
                     </svg>
@@ -62,7 +62,7 @@
 
                 <ul class="list mobile-menu__nav">
                     <li class="item mobile-menu__nav-item"><a class="link mobile-menu__nav-link" href="./index.html">Студія</a></li>
-                    <li class="item mobile-menu__nav-item"><a class="link mobile-menu__nav-link" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="item mobile-menu__nav-item"><a class="link mobile-menu__nav-link current" href="./portfolio.html">Портфоліо</a></li>
                     <li class="item mobile-menu__nav-item"><a class="link mobile-menu__nav-link" href="">Контакти</a></li>
                 </ul>
 
@@ -110,7 +110,7 @@
 
                                     <source srcset="./images/mobile-portfolio-website-img.jpg 1x, ./images/mobile-portfolio-website-img@2x.jpg 2x" media="(max-width: 767px)">
 
-                                    <img class="card-set__image" src="./images/portfolio-website-img.jpg" alt="ноутбук" width="370">
+                                    <img class="card-set__image" src="./images/portfolio-website-img.jpg" alt="ноутбук">
                                 </picture>
                                 <div class="overlay-content">
                                     <p class="hidden-content__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
@@ -136,7 +136,7 @@
 
                                     <source srcset="./images/mobile-portfolio-poster-img.jpg 1x, ./images/mobile-portfolio-poster-img@2x.jpg 2x" media="(max-width: 767px)">
 
-                                    <img class="card-set__image" src="./images/portfolio-poster-img.jpg" alt="баскетбольный постер" width="370">
+                                    <img class="card-set__image" src="./images/portfolio-poster-img.jpg" alt="баскетбольный постер">
                                 </picture>
                                 
                                 <div class="overlay-content">
@@ -163,7 +163,7 @@
 
                                     <source srcset="./images/mobile-portfolio-fishposter-img.jpg 1x, ./images/mobile-portfolio-fishposter-img@2x.jpg 2x" media="(max-width: 767px)">
 
-                                    <img class="card-set__image" src="./images/portfolio-fishposter-img.jpg" alt="рыбный постер" width="370">
+                                    <img class="card-set__image" src="./images/portfolio-fishposter-img.jpg" alt="рыбный постер">
                                 </picture>
                                 
                                 <div class="overlay-content">
@@ -190,7 +190,7 @@
 
                                     <source srcset="./images/mobile-portfolio-earphones-img.jpg 1x, ./images/mobile-portfolio-earphones-img@2x.jpg 2x" media="(max-width: 767px)">
 
-                                    <img class="card-set__image" src="./images/portfolio-earphones-img.jpg" alt="наушники" width="370">
+                                    <img class="card-set__image" src="./images/portfolio-earphones-img.jpg" alt="наушники">
                                 </picture>
                                 
                                 <div class="overlay-content">
@@ -217,7 +217,7 @@
 
                                     <source srcset="./images/mobile-portfolio-box-img.jpg 1x, ./images/mobile-portfolio-box-img@2x.jpg 2x" media="(max-width: 767px)">
 
-                                    <img class="card-set__image" src="./images/portfolio-box-img.jpg" alt="коробки" width="370">
+                                    <img class="card-set__image" src="./images/portfolio-box-img.jpg" alt="коробки">
                                 </picture>
                                 
                                 <div class="overlay-content">
@@ -244,7 +244,7 @@
 
                                     <source srcset="./images/mobile-portfolio-website-pc-img.jpg 1x, ./images/mobile-portfolio-website-pc-img@2x.jpg 2x" media="(max-width: 767px)">
 
-                                    <img class="card-set__image" src="./images/portfolio-website-pc-img.jpg" alt="персональный компьютер" width="370">
+                                    <img class="card-set__image" src="./images/portfolio-website-pc-img.jpg" alt="персональный компьютер">
                                 </picture>
                                 
                                 <div class="overlay-content">
@@ -271,7 +271,7 @@
 
                                     <source srcset="./images/mobile-portfolio-magazine-img.jpg 1x, ./images/mobile-portfolio-magazine-img@2x.jpg 2x" media="(max-width: 767px)">
 
-                                    <img class="card-set__image" src="./images/portfolio-magazine-img.jpg" alt="журнал" width="370">
+                                    <img class="card-set__image" src="./images/portfolio-magazine-img.jpg" alt="журнал">
                                 </picture>
                                 
                                 <div class="overlay-content">
@@ -298,7 +298,7 @@
 
                                     <source srcset="./images/mobile-portfolio-tag-img.jpg 1x, ./images/mobile-portfolio-tag-img@2x.jpg 2x" media="(max-width: 767px)">
 
-                                    <img class="card-set__image" src="./images/portfolio-tag-img.jpg" alt="бирка" width="370">
+                                    <img class="card-set__image" src="./images/portfolio-tag-img.jpg" alt="бирка">
                                 </picture>
                                 
                                 <div class="overlay-content">
@@ -325,7 +325,7 @@
 
                                     <source srcset="./images/mobile-portfolio-laptop-img.jpg 1x, ./images/mobile-portfolio-laptop-img@2x.jpg 2x" media="(max-width: 767px)">
 
-                                    <img class="card-set__image" src="./images/portfolio-laptop-img.jpg" alt="ноутбук" width="370">
+                                    <img class="card-set__image" src="./images/portfolio-laptop-img.jpg" alt="ноутбук">
                                 </picture>
                                 
                                 <div class="overlay-content">

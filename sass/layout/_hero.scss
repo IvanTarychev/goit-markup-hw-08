@@ -1,6 +1,6 @@
 .hero {
-    padding-top: 178px;
-    padding-bottom: 178px;
+    padding-top: 118px;
+    padding-bottom: 118px;
   
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
@@ -70,6 +70,11 @@ screen and (min-width: 768px) and (min-resolution: 2dppx) {
         rgba(47, 48, 58, 0.4)
           ),
         url(../images/desktop-hero-img.jpg)
+    }
+
+    .hero__title {
+      font-size: 44px;
+      line-height: 1.36;
     }
   }
 
