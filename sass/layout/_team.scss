@@ -14,10 +14,6 @@
         letter-spacing: 0.03em;
       }
       
-      &__list {
-        display: flex;
-      }
-      
       &__item {
         background-color: var(--secondary-text-color);
       
@@ -92,3 +88,7 @@
         fill: currentColor;
       }
   }
+
+// .team__list {
+//   display: flex;
+// }
